@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather Conditions</title>
+       
+        <!--Boostrap's CSS-->
+        <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <div class="container" id="page-container">
+        <h1 id="app-name" >Weather WebApp</h1>
+        <h2>Location Search and Current Conditions</h2>
+        
+        <div>Enter location name:
+             <input id="awxSearchTextBox" placeholder="new york, ny" />
+             <input id="awxSearchButton" type="submit" value="Search" />
+        </div>
+
+        <h3>Location Information</h3>
+        <ul>
+            <li><span id="awxLocationInfo">(Enter location above to see results)</span>
+        </ul>
+
+        <h3>Current Conditions</h3>
+        <ul>
+             <li ><span id="awxWeatherInfo">(Enter location above to see results)</span>
+        </ul>
+       
+        </div>
+
+
+        
+        <!--Custom Script-->
+        <script src="./js/main.js"></script>
+    </body>
+</html>
